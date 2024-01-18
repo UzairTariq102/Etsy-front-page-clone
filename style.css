@@ -1,0 +1,114 @@
+nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: -10px;
+}
+
+nav>div {
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    cursor: pointer;
+    padding: 12px;
+}
+.nav-hover:hover{
+    background-color: lightgray;
+    border-radius: 50px;  
+}
+
+#head-div {
+    box-shadow: 0 2px 2px darkgray;
+}
+
+#heading {
+    font-size: 40px;
+    color: #F1641E;
+    font-weight: bolder;
+}
+
+nav>div>input {
+    width: 50vw;
+    height: 50px;
+    border-radius: 25px;
+    padding: 1.5em;
+}
+
+#head2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#head2>div {
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 5px;
+    margin-top: -25px;
+    padding: 10px;
+    cursor: pointer;
+}
+#head2>div:hover{
+    background-color: lightgray;
+    border-radius: 25px;
+    
+}
+
+#carousal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#carousal>div {
+    margin-left: 2em;
+    margin-right: 2em;
+    text-align: center;
+    height: 180px;
+}
+#carousal>div:hover{
+    border-bottom:1px solid black ;
+}
+
+#carousal>div>img {
+    border-radius: 70px;
+    cursor: pointer;
+}
+
+#carousal>div>img:hover {
+    box-shadow: 0 0 10px 1px darkgrey;
+    height: 130px;
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#cards>div {
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#cards>div:hover {
+    box-shadow: 0 0 6px 3px darkgrey;
+}
+
+#cards>div>img {
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.items-info>span {
+    font-weight: bold;
+
+}
+
+.h1 {
+    margin-top: 1em;
+    margin-left: 1.5em;
+}
